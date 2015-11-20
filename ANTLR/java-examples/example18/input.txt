@@ -1,0 +1,14 @@
+FirstName, LastName, Street, City, State, ZipCode
+Mark,, 4460 Stuart Street, Marion Center, PA, 15759
+----
+FirstName=John
+LastName=Smith
+----
+FirstName, LastName, Street, City, State, ZipCode
+Monica, Apodaca, 258 Oliver Street, Fort Worth, TX, 76118
+Kenisha, Le, 1579 Olen Thomas Drive, Charlie, TX, 76377
+Dustin, Edwards, 2249 Ingram Road, Greensboro, NC, 27401
+----
+FirstName=Harry
+FirstName=Bob
+FirstName=Lisa

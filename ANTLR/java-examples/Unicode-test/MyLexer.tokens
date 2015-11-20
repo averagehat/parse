@@ -1,0 +1,4 @@
+Constant=1
+Identifier=2
+WS=3
+OTHER=4

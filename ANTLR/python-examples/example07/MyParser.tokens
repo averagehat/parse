@@ -1,0 +1,10 @@
+Received=1
+SemiColon=2
+FromText=3
+ByText=4
+WithText=5
+IdText=6
+DateContents=7
+Whitespace=8
+'Received: '=1
+';'=2

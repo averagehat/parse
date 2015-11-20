@@ -1,0 +1,9 @@
+CurrencySymbol=1
+Space=2
+Digit=3
+Cents=4
+NL=5
+Separator=6
+Product=7
+' '=2
+'/'=6

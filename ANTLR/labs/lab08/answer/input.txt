@@ -1,0 +1,6 @@
+{
+    "age": 31,
+    "numSpouses": 2,
+    "favoriteColors": [6,7]
+}
+

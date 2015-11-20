@@ -1,0 +1,11 @@
+COMMA=1
+NL=2
+WS=3
+STRING=4
+KEY=5
+EQ=6
+NL2=7
+WS2=8
+VALUE=9
+','=1
+'='=6

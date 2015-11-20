@@ -1,0 +1,5 @@
+FirstName, LastName, Street, City, State, ZipCode
+Mark,, 4460 Stuart Street, Marion Center, PA, 15759
+----
+FirstName=John
+LastName=Smith

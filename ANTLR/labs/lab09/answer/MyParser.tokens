@@ -1,0 +1,15 @@
+LeftBracket=1
+RightBracket=2
+LeftBrace=3
+RightBrace=4
+Name=5
+Int=6
+Comma=7
+Colon=8
+WS=9
+'['=1
+']'=2
+'{'=3
+'}'=4
+','=7
+':'=8

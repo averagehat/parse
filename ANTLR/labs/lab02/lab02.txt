@@ -1,0 +1,8 @@
+Lab 2: Use the -tokens, -tree, and -trace options
+
+Rerun the grammar that you created in the last lab.
+
+This time, however, don't use the -gui option. Instead,
+use the -tokens option. Then use the -tree option. Finally,
+use the -trace option. Be sure that you understand the output
+that is generated for each option.

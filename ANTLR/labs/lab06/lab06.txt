@@ -1,0 +1,24 @@
+Lab 6: Creating recursive rules
+
+A document contains a section. A section contains a title or 
+a title followed by a section. Create a grammar for the document.
+A title is enclosed in quotes. Here is the input:
+
+"Section #1" "Section #2"
+"Section #3"
+
+Use this rule to tokenize each title:
+
+STRING : '"' .+? '"' ;
+
+That rule uses the non-greedy operator: +?, which we will discuss later.
+
+Discard whitespace between the titles.
+
+After you have your grammar working, modify it to implement this:
+
+A document contains a section. A section contains a title or
+a section followed by a title. (Notice that I've swapped the order
+of section and title). Run your modified grammar. What did you learn?
+
+Name the start rule: document

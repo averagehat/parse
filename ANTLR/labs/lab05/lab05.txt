@@ -1,0 +1,15 @@
+Lab 5: A sequence of purchases
+
+The input consists of a series (at least one) of purchases. 
+Each purchase is on a new line. After the last purchase 
+there may, or may not be a new line. A purchase consists of
+the name of the purchase, followed by slash, followed by the 
+amount of the purchase. Create a parser. Example input:
+
+Movie tickets/$19.95
+Cellphone/$99.00
+Mini tractor/$6900
+
+You are to discard the separator symbols as well as the newline symbols.
+
+Name the start rule: purchases

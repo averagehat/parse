@@ -1,0 +1,9 @@
+LCurly=1
+RCurly=2
+EQ=3
+UnquotedString=4
+QuotedString=5
+WS=6
+'{'=1
+'}'=2
+'='=3

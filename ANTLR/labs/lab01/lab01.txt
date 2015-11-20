@@ -1,0 +1,30 @@
+Lab 1: Create a grammar for amount of money
+
+Create a grammar to describe an amount of money:
+
+	currency symbol followed by zero or more spaces, 
+	followed by one or more digits, followed by cents 
+	(decimal point and two digits).
+
+The currency symbol can be any of these: €, $, ¥, or £
+
+Use ANTLR to generate a parser. Then parse this input: $19.99
+
+Name your start rule: amount
+
+Create a lexer grammar and a parser grammar. Name them MyLexer.g4
+and MyParser.g4, respectively. Place them in the current folder 
+(in the lab1 folder).
+
+When you've finished your grammars, open a DOS window, change directory
+to this folder, and type: run
+
+Note: by default ANTLR works only on ASCII text. €, ¥, and £ are not ASCII
+characters. So, you need to specify the character encoding scheme (uft-8).
+Here's how to do it:
+
+java org.antlr.v4.Tool -encoding utf-8 MyLexer.g4 -no-listener -no-visitor
+
+java org.antlr.v4.Tool -encoding utf-8 MyParser.g4 -no-listener -no-visitor
+
+This has already been done in run.bat

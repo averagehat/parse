@@ -1,0 +1,13 @@
+Lab 3: Don't accept input with trailing garbage
+
+Rerun the grammar that you created in lab 1. The input now
+has trailing garbage:
+
+     $19.95 Garbage
+
+Notice that ANTLR builds the parse tree just fine (it
+does report that it doesn't recognize "Garbage" but nonetheless
+it proceeds to build the parse tree, without errors).
+
+Then modify the grammar so that any garbage is illegal and
+errors appear in the parse tree.

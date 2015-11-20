@@ -1,0 +1,10 @@
+Lab 4: A sequence of money values
+
+The input consists of a series (at least one) of money values. 
+Each money value is on a new line. After the last money value 
+there may, or may not be a new line. Create a parser for 
+this input. Example input:
+
+	$19.95
+	¥200
+	€6900

@@ -1,0 +1,7 @@
+NAME=1
+INT=2
+BOOL=3
+DECIMAL=4
+NL=5
+WS=6
+'true'=3

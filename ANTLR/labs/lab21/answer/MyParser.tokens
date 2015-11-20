@@ -1,0 +1,5 @@
+COMMA=1
+NL=2
+WS=3
+FIELD=4
+','=1

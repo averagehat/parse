@@ -1,0 +1,6 @@
+ZIPCODE=1
+COMMA=2
+NL=3
+WS=4
+STRING=5
+','=2
